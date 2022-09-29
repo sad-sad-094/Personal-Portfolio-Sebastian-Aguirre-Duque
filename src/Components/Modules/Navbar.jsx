@@ -2,6 +2,7 @@
 E-mail: sadw621@gmail.com */
 
 import React from 'react';
+import { BsFileEarmarkCodeFill } from 'react-icons/bs';
 
 function Navbar() {
 
@@ -9,6 +10,7 @@ function Navbar() {
 
     <nav className="navbar" id="navbar">
       <div className="nav-header">
+        <p><BsFileEarmarkCodeFill /></p>
         <h1>Sebastian's Personal Portafolio</h1>
       </div>
       <div className="nav-access">

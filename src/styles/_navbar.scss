@@ -5,8 +5,8 @@ E-mail: sadw621@gmail.com */
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
-  gap: wrap;
   top: 0;
   left: 0;
   width: 100%;
@@ -25,13 +25,19 @@ E-mail: sadw621@gmail.com */
 
 .nav-header {
   display: flex;
-  justify-self: left;
+  justify-content: left;
+  align-items: center;
   margin-left: $navbar-margin;
+  gap: $spacing
+}
+
+.nav-header p {
+  font-size: 1.5rem;
 }
 
 .nav-access {
   display: flex;
-  justify-self: right;
+  justify-content: right;
   margin-right: $navbar-margin;
 }
 
