@@ -1,0 +1,26 @@
+/* Author: Sebastian Aguirre Duque
+E-mail: sadw621@gmail.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap');
+@import 'variables';
+@import 'mixins';
+@import 'navbar';
+@import 'sections';
+
+body {
+  font-family: $fonts;
+  background-color: $primary-color;
+  min-height: 100hv;
+}
+
+.main-container {
+  // width: 90%;
+  @include flex-center;
+}
+
+.helper-container {
+  display: flex;
+  width: 100%;
+  margin-top: 4.2rem;
+}
+

@@ -1,0 +1,23 @@
+/* Author: Sebastian Aguirre Duque
+E-mail: sadw621@gmail.com */
+
+
+section {
+  height: 100vh;
+  @include flex-center;
+}
+
+section:nth-child(1) {
+  background: #9ab4ff;
+}
+
+section:nth-child(2) {
+  background: #607ec9;
+}
+section:nth-child(3) {
+  background: rgb(46,88,148);
+}
+section:nth-child(4) {
+  background: #607ec9;
+}
+
