@@ -2,7 +2,7 @@
 E-mail: sadw621@gmail.com */
 
 
-import './App.css';
+import './App.scss';
 
 function App() {
 
