@@ -11,12 +11,18 @@ function LandingPage() {
 
     <>
       <Navbar />
-      <section id="welcome-section">
-        <h1>Hi world!</h1>
+      <section id="welcome-section" className="welcome-section">
+        <h1>Hi!</h1>
+        <h2>I'm Sebastian Aguirre Duque</h2>
+        <h3>FrontEnd Web Developer</h3>
+        <p>React || JavaScript || Firebase || Git || Github || SASS || Bootstrap || HTML5 || CSS </p>
       </section>
+
       <section id="projects">
-        <h1>Hi section</h1>
+        <h1>These are some of my projects</h1>
+
       </section>
+      
       <section id="contact">
         <h1>Hi section</h1>
       </section>
