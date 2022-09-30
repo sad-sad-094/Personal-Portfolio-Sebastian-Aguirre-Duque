@@ -21,3 +21,8 @@ E-mail: sadw621@gmail.com */
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
+
+@mixin a-decoration {
+  text-decoration: none;
+  cursor: pointer;
+}

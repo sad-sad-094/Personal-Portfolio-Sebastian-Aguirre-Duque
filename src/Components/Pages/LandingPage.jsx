@@ -4,6 +4,8 @@ E-mail: sadw621@gmail.com */
 import React from 'react';
 import '../../styles/Main.scss'
 import Navbar from '../Modules/Navbar';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 function LandingPage() {
 
@@ -12,19 +14,47 @@ function LandingPage() {
     <>
       <Navbar />
       <section id="welcome-section" className="welcome-section">
-        <h1>Hi!</h1>
-        <h2>I'm Sebastian Aguirre Duque</h2>
-        <h3>FrontEnd Web Developer</h3>
-        <p>React || JavaScript || Firebase || Git || Github || SASS || Bootstrap || HTML5 || CSS </p>
+        <div>
+          <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558377/Personal/WebDeveloper_ctzqrb.jpg" alt="Web Developer" />
+        </div>
+        <div className="text-section">
+          <h1>Welcome!</h1>
+          <h2>I'm Sebastian Aguirre Duque</h2>
+          <h3>FrontEnd Web Developer</h3>
+          <p>React || JavaScript || Firebase || Git || Github || SASS || Bootstrap || HTML5 || CSS </p>
+        </div>
       </section>
 
       <section id="projects">
         <h1>These are some of my projects</h1>
 
       </section>
-      
+
       <section id="contact">
-        <h1>Hi section</h1>
+        <h1>Know my social networks and contact me</h1>
+        <div className="contact-section">
+          <div className="social-links">
+            <div className="main-container">
+              <FaLinkedin  className="social-icons" />
+              <a href="https://www.linkedin.com/in/sebastian-aguirre-duque-05b9b082/" target="_blank" className="" >LinkedIn</a>
+            </div>
+            <div className="main-container">
+              <FaGithub className="social-icons" />
+              <a href="https://github.com/sad-sad-094" target="_blank" className="" >Github</a>
+            </div>
+            <div className="main-container">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664556972/Personal/Torre.co_zumsjl.jpg" alt="Torre.co" className="torre-img" />
+              <a href="https://torre.co/sadw621?column=resume&r=0eLrKAet" target="_blank" className="" >Torre.co</a>
+            </div>
+            <div className="main-container">
+              <MdEmail className="social-icons" />
+              <a href="mailto: sadw621@gmail.com" target="_blank" className="" >Email</a>
+            </div>
+          </div>
+          <div>
+            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558376/Personal/SocialNetwork_d7uvb1.jpg" alt="Social Networks" />
+          </div>
+        </div>
       </section>
     </>
 
