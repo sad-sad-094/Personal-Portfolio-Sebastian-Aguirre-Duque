@@ -57,7 +57,7 @@ section:nth-child(4) {
 }
 
 .welcome-section img {
-  @include bordered(10px);
+  @include section-img-bordered;
 }
 
 .contact-section {
@@ -68,7 +68,7 @@ section:nth-child(4) {
 }
 
 .contact-section img {
-  @include bordered(10px);
+  @include section-img-bordered;
   border: 1px solid black;
 }
 
@@ -99,4 +99,5 @@ section:nth-child(4) {
   width: 3.2rem;
   margin-bottom: .5rem;
   border: 0px solid !important;
+  border-radius: 10px !important;
 }

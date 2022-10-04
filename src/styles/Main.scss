@@ -6,6 +6,7 @@ E-mail: sadw621@gmail.com */
 @import 'mixins';
 @import 'navbar';
 @import 'sections';
+@import 'cards';
 
 body {
   font-family: $fonts;
@@ -22,5 +23,14 @@ body {
   display: flex;
   width: 100%;
   margin-top: 4.2rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2.3rem;
+  justify-content: center;
+  margin: $center-margin;
 }
 
