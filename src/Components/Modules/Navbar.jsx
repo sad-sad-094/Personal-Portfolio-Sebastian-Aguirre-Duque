@@ -2,7 +2,6 @@
 E-mail: sadw621@gmail.com */
 
 import React from 'react';
-import { BsFileEarmarkCodeFill } from 'react-icons/bs';
 
 function Navbar() {
 
