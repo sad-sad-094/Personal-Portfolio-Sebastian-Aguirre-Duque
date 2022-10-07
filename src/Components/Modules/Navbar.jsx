@@ -10,7 +10,7 @@ function Navbar() {
 
     <nav className="navbar" id="navbar">
       <div className="nav-header">
-        <p><BsFileEarmarkCodeFill /></p>
+        <img src="https://cdn-icons-png.flaticon.com/512/644/644626.png" alt="favicon" />
         <h1>Sebastian's Personal Portfolio</h1>
       </div>
       <div className="nav-access">
