@@ -26,64 +26,96 @@ function LandingPage() {
       </section>
 
       <section id="projects">
-        <h1 style={{color:'white'}}>These are some of my projects</h1>
+        <h1 style={{ color: 'white' }}>These are some of my projects</h1>
 
         <div className="projects-container">
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Tribute_Page1_f6j9ml.jpg" alt="Tribute Page" />
-            <div className="card-container">
-              <p>Alcolirikoz Tribute Page</p>
-            </div>
+            <a href="https://sad-sad-094.github.io/Alcolirikoz-Tribute-Page_FCC/" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Tribute_Page1_f6j9ml.jpg" alt="Tribute Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> Alcolirikoz Tribute Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Survey_Form_Page1_szgxnn.jpg" alt="Survey Form Page" />
-            <div className="card-container">
-              <p>Subscription Survey Form Page</p>
-            </div>
+            <a href="https://sad-sad-094.github.io/Subscription-Survey-Form-Page_FCC/" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Survey_Form_Page1_szgxnn.jpg" alt="Survey Form Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> Subscription Survey Form Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Clash_Royale1_yhnvep.jpg" alt="Clash Royale Page" />
-            <div className="card-container">
-              <p>Clash Royale Page</p>
-            </div>
+            <a href="https://sad-sad-094.github.io/ClashRoyale-Tarea1-Modulo3/" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Clash_Royale1_yhnvep.jpg" alt="Clash Royale Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> Clash Royale Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Shopping_App1_n2bk7f.jpg" alt="Shopping Page" />
-            <div className="card-container">
-              <p>Shopping Page</p>
-            </div>
+            <a href="https://sad-sad-094.github.io/ebay-Tarea3-Modulo3/" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Shopping_App1_n2bk7f.jpg" alt="Shopping Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> Shopping Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/GeoPaises_Geek1_pqyhfn.jpg" alt="GeoPaises Geek" />
-            <div className="card-container">
-              <p>GeoPaíses Geek Page</p>
-            </div>
+            <a href="https://sad-sad-094.github.io/GeoPaisesGeek-Tarea2-Modulo3/" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/GeoPaises_Geek1_pqyhfn.jpg" alt="GeoPaises Geek" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> GeoPaíses Geek Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/LiveEdu_App1_iidld0.jpg" alt="LiveEdu Page" />
-            <div className="card-container">
-              <p>LiveEdu Page</p>
-            </div>
+            <a href="https://sad-sad-094.github.io/Live-Edu_Academia-Geek3" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/LiveEdu_App1_iidld0.jpg" alt="LiveEdu Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> LiveEdu Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924086/Personal/Buffalo_App1_bpkxow.jpg" alt="Buffalo App Page" />
-            <div className="card-container">
-              <p>Buffalo App Page</p>
-            </div>
+            <a href="https://sad-sad-094.github.io/Buffalo-App_Academia-Geek3" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924086/Personal/Buffalo_App1_bpkxow.jpg" alt="Buffalo App Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> Buffalo App Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="card">
-            <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Monitorias_App1_iv6ih6.jpg" alt="Monitorias App Page" />
-            <div className="card-container">
-              <p>Monitorias App Page</p>
-            </div>
+            <a href="https://monitoriasapp-academiage-779cb.web.app" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Monitorias_App1_iv6ih6.jpg" alt="Monitorias App Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> Monitorias App Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
           </div>
 
         </div>
