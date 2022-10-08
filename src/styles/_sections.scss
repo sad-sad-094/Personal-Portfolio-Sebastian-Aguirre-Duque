@@ -7,22 +7,6 @@ section {
   @include flex-center;
 }
 
-section:nth-child(1) {
-  background: #607ec9;
-}
-
-section:nth-child(2) {
-  background: #ffffff;
-}
-
-section:nth-child(3) {
-  background: #607ec9;
-}
-
-section:nth-child(4) {
-  background: #ffffff;
-}
-
 .text-section {
   display: flex;
   flex-direction: column;
@@ -37,23 +21,12 @@ section:nth-child(4) {
   gap: 6rem;
 }
 
-.welcome-section h1 {
-  font-size: 2.5rem;
-  color: #ff7f50;
-}
-
 .welcome-section h2 {
   font-size: 2.7rem;
 }
 
 .welcome-section h3 {
   font-size: 2rem;
-}
-
-.welcome-section p {
-  font-size: 1.2rem;
-  font-weight: 300;
-  color: #ff7f50;
 }
 
 .welcome-section img {
@@ -67,27 +40,12 @@ section:nth-child(4) {
   gap: 6rem;
 }
 
-.contact-section img {
-  @include section-img-bordered;
-  border: 1px solid black;
-}
-
 .social-links {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: $spacing;
-}
-
-.social-links a {
-  @include a-decoration;
-  font-size: 2rem;
-  color: black;
-}
-
-.social-links a:hover, social-links a:active {
-  font-size: 250%;
 }
 
 .social-icons {

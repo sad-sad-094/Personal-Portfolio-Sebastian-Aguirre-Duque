@@ -6,13 +6,25 @@ import '../../styles/Main.scss'
 import Navbar from '../Modules/Navbar';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { useState } from 'react';
+import { BsMoonFill } from 'react-icons/bs';
 
 function LandingPage() {
 
+  const [theme, setTheme] = useState('light');
+
+  const toggleTheme = () => {
+    if(theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
   return (
 
-    <>
-      <Navbar />
+    <div className={theme}>
+      <Navbar Theme={theme} />
       <section id="welcome-section" className="welcome-section">
         <div>
           <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558377/Personal/WebDeveloper_ctzqrb.jpg" alt="Web Developer" />
@@ -30,7 +42,7 @@ function LandingPage() {
 
         <div className="projects-container">
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/Alcolirikoz-Tribute-Page_FCC/" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Tribute_Page1_f6j9ml.jpg" alt="Tribute Page" />
               <div className="card-container">
@@ -41,7 +53,7 @@ function LandingPage() {
             </a>
           </div>
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/Subscription-Survey-Form-Page_FCC/" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Survey_Form_Page1_szgxnn.jpg" alt="Survey Form Page" />
               <div className="card-container">
@@ -52,7 +64,7 @@ function LandingPage() {
             </a>
           </div>
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/ClashRoyale-Tarea1-Modulo3/" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Clash_Royale1_yhnvep.jpg" alt="Clash Royale Page" />
               <div className="card-container">
@@ -63,7 +75,7 @@ function LandingPage() {
             </a>
           </div>
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/ebay-Tarea3-Modulo3/" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Shopping_App1_n2bk7f.jpg" alt="Shopping Page" />
               <div className="card-container">
@@ -74,7 +86,7 @@ function LandingPage() {
             </a>
           </div>
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/GeoPaisesGeek-Tarea2-Modulo3/" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/GeoPaises_Geek1_pqyhfn.jpg" alt="GeoPaises Geek" />
               <div className="card-container">
@@ -85,7 +97,7 @@ function LandingPage() {
             </a>
           </div>
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/Live-Edu_Academia-Geek3" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/LiveEdu_App1_iidld0.jpg" alt="LiveEdu Page" />
               <div className="card-container">
@@ -96,7 +108,7 @@ function LandingPage() {
             </a>
           </div>
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/Buffalo-App_Academia-Geek3" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924086/Personal/Buffalo_App1_bpkxow.jpg" alt="Buffalo App Page" />
               <div className="card-container">
@@ -107,7 +119,7 @@ function LandingPage() {
             </a>
           </div>
 
-          <div className="card">
+          <div className="card card-colors">
             <a href="https://monitoriasapp-academiage-779cb.web.app" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Monitorias_App1_iv6ih6.jpg" alt="Monitorias App Page" />
               <div className="card-container">
@@ -123,7 +135,7 @@ function LandingPage() {
       </section>
 
       <section id="contact">
-        <h1>Know my social networks and contact me</h1>
+        <h1 className="section-title">Know my social networks and contact me</h1>
         <div className="contact-section">
           <div className="social-links">
             <div className="main-container">
@@ -148,7 +160,11 @@ function LandingPage() {
           </div>
         </div>
       </section>
-    </>
+
+      <div>
+        <button type="button" className="toggler" onClick={toggleTheme}><BsMoonFill/></button>
+      </div>
+    </div>
 
 
   )
