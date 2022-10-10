@@ -32,6 +32,26 @@ body {
   margin: $center-margin;
 }
 
+.toggler {
+  width: 4%;
+  border-radius: 25px;
+  position: absolute;
+  z-index: 1;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+  padding: 0.3rem;
+  color: $text-primary;
+  background-color: $text-secundary;
+}
+
+.toggler-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 0;
+}
+
 .light {
 
   section:nth-child(1) {

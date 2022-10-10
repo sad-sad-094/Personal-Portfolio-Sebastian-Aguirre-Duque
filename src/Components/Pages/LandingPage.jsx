@@ -14,7 +14,7 @@ function LandingPage() {
   const [theme, setTheme] = useState('light');
 
   const toggleTheme = () => {
-    if(theme === 'light') {
+    if (theme === 'light') {
       setTheme('dark');
     } else {
       setTheme('light');
@@ -159,10 +159,12 @@ function LandingPage() {
             <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558376/Personal/SocialNetwork_d7uvb1.jpg" alt="Social Networks" />
           </div>
         </div>
+
+
       </section>
 
-      <div>
-        <button type="button" className="toggler" onClick={toggleTheme}><BsMoonFill/></button>
+      <div className="toggler-container">
+        <button type="button" className="toggler" onClick={toggleTheme}><BsMoonFill /></button>
       </div>
     </div>
 
