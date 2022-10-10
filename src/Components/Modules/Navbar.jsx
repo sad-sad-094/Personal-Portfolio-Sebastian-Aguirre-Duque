@@ -3,11 +3,11 @@ E-mail: sadw621@gmail.com */
 
 import React from 'react';
 
-function Navbar(theme) {
+function Navbar(prop) {
 
   return (
 
-    <div className={theme}>
+    <div className={prop.theme}>
       <nav className="navbar navbar-background" id="navbar">
         <div className="nav-header">
           <img src="https://cdn-icons-png.flaticon.com/512/644/644626.png" alt="favicon" />

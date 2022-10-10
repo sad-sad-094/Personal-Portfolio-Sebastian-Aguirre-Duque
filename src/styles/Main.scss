@@ -10,7 +10,6 @@ E-mail: sadw621@gmail.com */
 
 body {
   font-family: $fonts;
-  background-color: $primary-color;
   min-height: 100hv;
 }
 
@@ -36,19 +35,19 @@ body {
 .light {
 
   section:nth-child(1) {
-    background: #607ec9;
+    background: $section-primary-1;
   }
 
   section:nth-child(2) {
-    background: #ffffff;
+    background: $section-primary-2;
   }
 
   section:nth-child(3) {
-    background: #607ec9;
+    background: $section-primary-1;
   }
 
   section:nth-child(4) {
-    background: #ffffff;
+    background: $section-primary-2;
   }
 
   .navbar-background {
@@ -56,12 +55,12 @@ body {
   }
 
   .card-colors {
-    background-color: #ffffff;
+    background-color: #f0f4f8;
     box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .title {
-    color: #607ec9;
+    color: #486581;
   }
 
   .title:hover {
@@ -70,24 +69,24 @@ body {
 
   .welcome-section h1 {
     font-size: 2.5rem;
-    color: #ff7f50;
+    color: $text-primary;
   }
 
   .welcome-section p {
     font-size: 1.2rem;
     font-weight: 300;
-    color: #ff7f50;
+    color: $text-primary;
   }
 
   .contact-section img {
     @include section-img-bordered;
-    border: 1px solid black;
+    border: 1px solid $text-primary;
   }
 
   .social-links a {
     @include a-decoration;
     font-size: 2rem;
-    color: black;
+    color: $text-primary;
   }
 
   .social-links a:hover,
@@ -96,7 +95,7 @@ body {
   }
 
   .section-title {
-    color: black;
+    color: $text-primary;
   }
 
 }
@@ -104,19 +103,19 @@ body {
 .dark {
 
   section:nth-child(1) {
-    background: #010038;
+    background: $section-secundary-1;
   }
 
   section:nth-child(2) {
-    background: #293A80;
+    background: $section-secundary-2;
   }
 
   section:nth-child(3) {
-    background: #010038;
+    background: $section-secundary-1;
   }
 
   section:nth-child(4) {
-    background: #293A80;
+    background: $section-secundary-2;
   }
 
   .navbar-background {
@@ -124,16 +123,16 @@ body {
   }
 
   .card-colors {
-    background-color: #293A80;
-    box-shadow: 4px 8px 0 #ffffff(0, 0, 0, 0.2), 0 6px 20px 0 #ffffff(0, 0, 0, 0.19);
+    background-color: #829ab1;
+    box-shadow: 4px 8px 0 rgba(187, 187, 187, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
   }
 
   .code {
-    color: #ffffff;
+    color: $text-secundary;
   }
 
   .title {
-    color: #ffffff;
+    color: $text-secundary;
   }
 
   .title:hover {
@@ -142,23 +141,23 @@ body {
 
   .welcome-section h1 {
     font-size: 2.5rem;
-    color: #ffffff;
+    color: $text-secundary;
   }
 
   .welcome-section h2 {
     font-size: 2.7rem;
-    color: white
+    color: $text-secundary
   }
 
   .welcome-section h3 {
     font-size: 2rem;
-    color: white;
+    color: $text-secundary;
   }
 
   .welcome-section p {
     font-size: 1.2rem;
     font-weight: 300;
-    color: #ffffff;
+    color: $text-secundary;
   }
 
   .contact-section img {
@@ -169,7 +168,7 @@ body {
   .social-links a {
     @include a-decoration;
     font-size: 2rem;
-    color: white;
+    color: $text-secundary;
   }
 
   .social-links a:hover,
@@ -180,11 +179,11 @@ body {
   .social-icons {
     font-size: 2.5rem;
     margin-bottom: .5rem;
-    color: white;
+    color: $text-secundary;
   }
 
   .section-title {
-    color: white;
+    color: $text-secundary;
   }
 
 }
