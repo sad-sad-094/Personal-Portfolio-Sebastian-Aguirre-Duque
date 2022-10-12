@@ -4,7 +4,7 @@ E-mail: sadw621@gmail.com */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Navbar(prop) {
+function NavbarES(prop) {
 
   const navigation = useNavigate();
 
@@ -14,21 +14,22 @@ function Navbar(prop) {
       <nav className="navbar navbar-background" id="navbar">
         <div className="nav-header">
           <img src="https://cdn-icons-png.flaticon.com/512/644/644626.png" alt="favicon" />
-          <h1>Sebastian's Personal Portfolio</h1>
+          <h1>Portafolio Personal de Sebastian</h1>
         </div>
         <div className="nav-access">
           <ul className="nav-list">
-            <li><img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1665614471/Personal/spain_gawrb1.png" alt="español" onClick={() => navigation("/ES/landing")} /></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#projects">My Projects</a></li>
-            <li><a href="#welcome-section">About Me</a></li>
+            <li><img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1665614471/Personal/united-kingdom_t8wwke.png" alt="english" onClick={() => navigation("/")} /></li>
+            <li><a href="#contact">Contáctame</a></li>
+            <li><a href="#projects">Mis Proyectos</a></li>
+            <li><a href="#welcome-section">Acerca de Mí</a></li>
           </ul>
         </div>
       </nav>
+
     </div>
 
   )
 
 }
 
-export default Navbar;
+export default NavbarES;
