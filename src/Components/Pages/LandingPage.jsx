@@ -6,18 +6,20 @@ import '../../styles/Main.scss'
 import Navbar from '../Modules/Navbar';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { useState } from 'react';
 import { BsMoonFill } from 'react-icons/bs';
+import { useSelector, useDispatch } from 'react-redux';
+import { darkTheme, lightTheme } from '../../Redux/ThemeSlice';
 
 function LandingPage() {
 
-  const [theme, setTheme] = useState('light');
+  const theme = useSelector((state) => state.userTheme.theme);
+  const dispatch = useDispatch();
 
   const toggleTheme = () => {
     if (theme === 'light') {
-      setTheme('dark');
+      dispatch(darkTheme());
     } else {
-      setTheme('light');
+      dispatch(lightTheme());
     }
   };
 
@@ -169,7 +171,6 @@ function LandingPage() {
       </div>
 
     </div>
-
 
   )
 

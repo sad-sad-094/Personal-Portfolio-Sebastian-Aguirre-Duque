@@ -41,6 +41,7 @@ body {
   padding: 0.3rem;
   color: $text-primary;
   background-color: $text-secundary;
+  @include a-decoration;
 }
 
 .toggler-container {

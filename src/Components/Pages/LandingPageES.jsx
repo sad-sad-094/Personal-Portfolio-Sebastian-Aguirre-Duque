@@ -5,19 +5,21 @@ import React from 'react';
 import '../../styles/Main.scss'
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { useState } from 'react';
 import { BsMoonFill } from 'react-icons/bs';
 import NavbarES from '../Modules/NavbarEs';
+import { useSelector, useDispatch } from 'react-redux';
+import { darkTheme, lightTheme } from '../../Redux/ThemeSlice';
 
 function LandingPageES() {
 
-  const [theme, setTheme] = useState('light');
+  const theme = useSelector((state) => state.userTheme.theme);
+  const dispatch = useDispatch();
 
   const toggleTheme = () => {
     if (theme === 'light') {
-      setTheme('dark');
+      dispatch(darkTheme());
     } else {
-      setTheme('light');
+      dispatch(lightTheme());
     }
   };
 
