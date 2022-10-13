@@ -167,7 +167,7 @@ function LandingPageES() {
       </section>
 
       <div className="toggler-container">
-        <button type="button" className="toggler" onClick={toggleTheme}><BsMoonFill /></button>
+        <button type="button" className="toggler toggler-floating" onClick={toggleTheme}><BsMoonFill /></button>
       </div>
 
     </div>
