@@ -1,4 +1,4 @@
-# Sebastian's Web Developer Portafolio.
+# Sebastian's Web Developer Portfolio.
 
 Personal Portfolio ✒️ is a webpage that let you know my personal portfolio as a frontend web developer.
 
