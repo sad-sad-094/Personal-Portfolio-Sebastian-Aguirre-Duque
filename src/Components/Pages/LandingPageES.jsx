@@ -9,6 +9,7 @@ import { BsMoonFill } from 'react-icons/bs';
 import NavbarES from '../Modules/NavbarEs';
 import { useSelector, useDispatch } from 'react-redux';
 import { darkTheme, lightTheme } from '../../Redux/ThemeSlice';
+import Footer from '../Modules/Footer';
 
 function LandingPageES() {
 
@@ -165,6 +166,23 @@ function LandingPageES() {
         </div>
 
       </section>
+
+      <section id="roadmap">
+
+        <h1 style={{ color: 'white' }}>Plan de acción...</h1>
+        <ul className="roadmap-list">
+          <li>Hacer la página adaptable para tabletas.</li>
+          <li>Hacer la página adaptable para teléfonos móviles.</li>
+        </ul>
+        <ul className="roadmap-list">
+          <li><del>Construir página para portafolio personal.</del></li>
+          <li><del>Hacer cambio de tema claro/oscuro para la página.</del></li>
+          <li><del>Hacer del portafolio una página bilingüe.</del></li>
+        </ul>
+
+      </section>
+
+      <Footer Theme={theme} />
 
       <div className="toggler-container">
         <button type="button" className="toggler toggler-floating" onClick={toggleTheme}><BsMoonFill /></button>
