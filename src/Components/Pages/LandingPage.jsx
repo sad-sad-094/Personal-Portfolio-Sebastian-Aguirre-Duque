@@ -6,21 +6,25 @@ import '../../styles/Main.scss'
 import Navbar from '../Modules/Navbar';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { BsMoonFill } from 'react-icons/bs';
+// import { BsMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { useSelector, useDispatch } from 'react-redux';
 import { darkTheme, lightTheme } from '../../Redux/ThemeSlice';
 import Footer from '../Modules/Footer';
+import { darkToggler, lightToggler } from '../../Redux/TogglerSlice';
 
 function LandingPage() {
 
   const theme = useSelector((state) => state.userTheme.theme);
+  const toggler = useSelector((state) => state.changeToggler.toggler);
   const dispatch = useDispatch();
 
   const toggleTheme = () => {
     if (theme === 'light') {
       dispatch(darkTheme());
+      dispatch(darkToggler());
     } else {
       dispatch(lightTheme());
+      dispatch(lightToggler());
     }
   };
 
@@ -170,22 +174,24 @@ function LandingPage() {
       <section id="roadmap">
 
         <h1 style={{ color: 'white' }}>Roadmap...</h1>
-          <ul className="roadmap-list">
-            <li>Make page responsive for tablet devices.</li>
-            <li>Make page responsive for phone devices.</li>
-          </ul>
-          <ul className="roadmap-list">
-            <li><del>Make personal portfolio webpage.</del></li>
-            <li><del>Make page's toggler dark/light theme.</del></li>
-            <li><del>Make personal portfolio bilingual page.</del></li>
-          </ul>
+        <ul className="roadmap-list">
+          <li>Make page responsive for tablet devices.</li>
+          <li>Make page responsive for phone devices.</li>
+        </ul>
+        <ul className="roadmap-list">
+          <li><del>Make personal portfolio webpage.</del></li>
+          <li><del>Make page's toggler dark/light theme.</del></li>
+          <li><del>Make personal portfolio bilingual page.</del></li>
+        </ul>
 
       </section>
 
       <Footer Theme={theme} />
 
       <div className="toggler-container">
-        <button type="button" className="toggler toggler-floating" onClick={toggleTheme}><BsMoonFill /></button>
+        <button type="button" className="toggler toggler-floating toggler-background" onClick={toggleTheme}>
+          {toggler}
+        </button>
       </div>
 
     </div>

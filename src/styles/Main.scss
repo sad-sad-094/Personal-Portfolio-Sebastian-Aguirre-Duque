@@ -35,18 +35,18 @@ body {
 
 .toggler {
   width: 4%;
-  border-radius: 25px;
+  height: 8%;
+  border-radius: 50%;
   position: absolute;
   padding: 0.3rem;
-  color: $text-primary;
-  background-color: $text-secundary;
+  align-items: center;
   @include a-decoration;
 }
 
 .toggler-floating {
   position: fixed;
   z-index: 100;
-  right: 1rem;
+  right: 1.5rem;
   bottom: 1.5rem;
 }
 
@@ -89,6 +89,12 @@ body {
 
   section:nth-child(5) {
     background: $section-primary-1;
+  }
+
+  .toggler-background {
+    color: $text-secundary;
+    background-color: $section-secundary-2;
+    border: 1px solid $text-secundary;
   }
 
   .navbar-background {
@@ -165,6 +171,14 @@ body {
 
   section:nth-child(5) {
     background: $section-secundary-1;
+  }
+
+  .toggler-background {
+    color: $text-primary;
+    font-size: 1.3rem;
+    padding: 0;
+    background-color: $section-primary-2;
+    border: 1px solid $text-secundary;
   }
 
   .navbar-background {

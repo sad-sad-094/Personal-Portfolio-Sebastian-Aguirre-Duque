@@ -5,22 +5,26 @@ import React from 'react';
 import '../../styles/Main.scss'
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import { BsMoonFill } from 'react-icons/bs';
+// import { BsMoonFill, BsFillSunFill } from 'react-icons/bs';
 import NavbarES from '../Modules/NavbarEs';
 import { useSelector, useDispatch } from 'react-redux';
 import { darkTheme, lightTheme } from '../../Redux/ThemeSlice';
 import Footer from '../Modules/Footer';
+import { darkToggler, lightToggler } from '../../Redux/TogglerSlice';
 
 function LandingPageES() {
 
   const theme = useSelector((state) => state.userTheme.theme);
+  const toggler = useSelector((state) => state.changeToggler.toggler);
   const dispatch = useDispatch();
 
   const toggleTheme = () => {
     if (theme === 'light') {
       dispatch(darkTheme());
+      dispatch(darkToggler());
     } else {
       dispatch(lightTheme());
+      dispatch(lightToggler());
     }
   };
 
@@ -185,7 +189,9 @@ function LandingPageES() {
       <Footer Theme={theme} />
 
       <div className="toggler-container">
-        <button type="button" className="toggler toggler-floating" onClick={toggleTheme}><BsMoonFill /></button>
+        <button type="button" className="toggler toggler-floating toggler-background" onClick={toggleTheme}>
+          {toggler}
+        </button>
       </div>
 
     </div>
