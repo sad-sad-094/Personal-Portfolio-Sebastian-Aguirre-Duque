@@ -7,6 +7,7 @@ E-mail: sadw621@gmail.com */
 @import 'navbar';
 @import 'sections';
 @import 'cards';
+@import 'footer';
 
 body {
   font-family: $fonts;
@@ -76,6 +77,10 @@ body {
     background: $section-primary-2;
   }
 
+  section:nth-child(5) {
+    background: $section-primary-1;
+  }
+
   .navbar-background {
     background: $navbar-primary;
   }
@@ -124,6 +129,10 @@ body {
     color: $text-primary;
   }
 
+  .footer-background {
+    background-color: $section-primary-1;
+  }
+
 }
 
 .dark {
@@ -142,6 +151,10 @@ body {
 
   section:nth-child(4) {
     background: $section-secundary-2;
+  }
+
+  section:nth-child(5) {
+    background: $section-secundary-1;
   }
 
   .navbar-background {
@@ -210,6 +223,10 @@ body {
 
   .section-title {
     color: $text-secundary;
+  }
+
+  .footer-background {
+    background-color: $section-secundary-1;
   }
 
 }
