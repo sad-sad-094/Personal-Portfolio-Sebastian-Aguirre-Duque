@@ -2,7 +2,7 @@
 E-mail: sadw621@gmail.com */
 
 import { createSlice } from '@reduxjs/toolkit';
-import { BsMoonFill, BsFillSunFill } from 'react-icons/bs';
+import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 
 const initialState = {
   toggler: <BsMoonFill />,
@@ -16,7 +16,7 @@ const togglerSlice = createSlice({
       state.toggler = <BsMoonFill />
     },
     darkToggler: (state) => {
-      state.toggler = <BsFillSunFill/>
+      state.toggler = <BsSunFill/>
     },
   },
 })
