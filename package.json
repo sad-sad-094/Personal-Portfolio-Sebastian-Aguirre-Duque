@@ -1,6 +1,6 @@
 {
   "name": "web-developer-portafolio",
-  "hostpage": "https://sad-sad-094.github.io/Personal-Portfolio_Sebastian-Aguirre-Duque",
+  "homepage": "https://sad-sad-094.github.io/Personal-Portfolio_Sebastian-Aguirre-Duque",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
