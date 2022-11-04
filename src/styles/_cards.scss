@@ -3,7 +3,24 @@ E-mail: sadw621@gmail.com */
 
 .card-container {
   text-align: center;
-  padding: 1.5rem 1rem;
+  
+  @include large-screen {
+    padding: 1.5rem 1rem;
+  }
+
+  @include tablet-landscape {
+    padding: .3rem .36rem;
+  }
+}
+
+.card-container p {
+  @include large-screen {
+
+  }
+
+  @include tablet-landscape {
+    font-size: .85rem;
+  }
 }
 
 .card {

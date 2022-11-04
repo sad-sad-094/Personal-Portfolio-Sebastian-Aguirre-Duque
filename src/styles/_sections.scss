@@ -18,26 +18,62 @@ section {
   padding: .5rem;
   display: flex;
   flex-direction: row;
-  gap: 6rem;
+
+  @include large-screen {
+    gap: 6rem;
+  }
+
+  @include tablet-landscape {
+    gap: 2rem;
+  }
 }
 
 .welcome-section h2 {
-  font-size: 2.7rem;
+
+  @include large-screen {
+    font-size: 2.7rem;
+  }
+
+  @include tablet-landscape {
+    font-size: 1.7rem;
+  }
 }
 
 .welcome-section h3 {
-  font-size: 2rem;
+
+  @include large-screen {
+    font-size: 2rem;
+  }
+
+  @include tablet-landscape {
+    font-size: 1.4rem;
+  }
 }
 
 .welcome-section img {
   @include section-img-bordered;
+
+  @include large-screen {
+    width: 100%;
+  }
+
+  @include tablet-landscape {
+    width: 90%;
+  }
 }
 
 .contact-section {
   padding: .5rem;
   display: flex;
   flex-direction: row;
-  gap: 6rem;
+
+  @include large-screen {
+    gap: 6rem;
+  }
+
+  @include tablet-landscape {
+    gap: 2rem;
+  }
 }
 
 .social-links {
@@ -54,8 +90,16 @@ section {
 }
 
 .torre-img {
-  width: 3.2rem;
-  margin-bottom: .5rem;
   border: 0px solid !important;
   border-radius: 10px !important;
+
+  @include large-screen {
+    width: 3.2rem;
+    margin-bottom: .5rem;
+  }
+
+  @include tablet-landscape {
+    width: 3rem;
+    margin-bottom: .3rem;
+  }
 }

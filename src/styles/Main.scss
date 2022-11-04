@@ -21,11 +21,7 @@ body {
 .helper-container {
   display: flex;
   width: 100%;
-
-  @include large-screen {
-    margin-top: 4.2rem;
-  }
-
+  margin-top: 4.2rem;
 }
 
 .projects-container {
@@ -37,6 +33,10 @@ body {
 
   @include large-screen {
     gap: 2.3rem;
+  }
+
+  @include tablet-landscape {
+    gap: 1.5rem;
   }
 }
 
@@ -74,8 +74,25 @@ body {
 
 .roadmap-list {
   color: white;
-  font-size: 1.2rem;
   justify-self: center;
+
+  @include large-screen {
+    font-size: 1.2rem;
+  }
+  
+  @include tablet-landscape {
+    font-size: 1rem;
+  }
+}
+
+.roadmap-list h1 {
+  @include large-screen {
+    font-size:2.5rem;
+  }
+
+  @include tablet-landscape {
+    font-size: 1.5rem;
+  }
 }
 
 .roadmap-list li {
@@ -133,6 +150,10 @@ body {
     @include large-screen {
       font-size: 2.5rem;
     }
+
+    @include tablet-landscape {
+      font-size: 1.5rem;
+    }
   }
 
   .welcome-section p {
@@ -142,11 +163,23 @@ body {
     @include large-screen {
       font-size: 1.2rem;
     }
+
+    @include tablet-landscape {
+      font-size: 1.1rem;
+    }
   }
 
   .contact-section img {
     @include section-img-bordered;
     border: 1px solid $text-primary;
+
+    @include large-screen {
+      width: 100%;
+    }
+
+    @include tablet-landscape {
+      width: 80%;
+    }
   }
 
   .social-links a {
@@ -155,6 +188,10 @@ body {
 
     @include large-screen {
       font-size: 2rem;
+    }
+
+    @include tablet-landscape {
+      font-size: 1.2rem;
     }
   }
 
@@ -233,22 +270,18 @@ body {
     @include large-screen {
       font-size: 2.5rem;
     }
+
+    @include tablet-landscape {
+      font-size: 1.5rem;
+    }
   }
 
   .welcome-section h2 {
     color: $text-secundary;
-
-    @include large-screen {
-      font-size: 2.7rem;
-    }
   }
 
   .welcome-section h3 {
     color: $text-secundary;
-
-    @include large-screen {
-      font-size: 2rem;
-    }
   }
 
   .welcome-section p {
@@ -258,11 +291,23 @@ body {
     @include large-screen {
       font-size: 1.2rem;
     }
+
+    @include tablet-landscape {
+      font-size: 1.1rem;
+    }
   }
 
   .contact-section img {
     @include section-img-bordered;
     border: 1px solid black;
+
+    @include large-screen {
+      width: 100%;
+    }
+
+    @include tablet-landscape {
+      width: 80%;
+    }
   }
 
   .social-links a {
@@ -271,6 +316,10 @@ body {
 
     @include large-screen {
       font-size: 2rem;
+    }
+
+    @include tablet-landscape {
+      font-size: 1.2rem;
     }
   }
 
