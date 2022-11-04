@@ -21,33 +21,46 @@ body {
 .helper-container {
   display: flex;
   width: 100%;
-  margin-top: 4.2rem;
+
+  @include large-screen {
+    margin-top: 4.2rem;
+  }
+
 }
 
 .projects-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2.3rem;
   justify-content: center;
   margin: $center-margin;
+
+  @include large-screen {
+    gap: 2.3rem;
+  }
 }
 
 .toggler {
-  width: 4%;
-  height: 8%;
   border-radius: 50%;
   position: absolute;
   padding: 0.3rem;
   align-items: center;
   @include a-decoration;
+
+  @include large-screen {
+    width: 4%;
+    height: 8%;
+  }
 }
 
 .toggler-floating {
   position: fixed;
   z-index: 100;
-  right: 1.5rem;
-  bottom: 1.5rem;
+
+  @include large-screen {
+    right: 1.5rem;
+    bottom: 1.5rem;
+  }
 }
 
 .toggler-container {
@@ -115,14 +128,20 @@ body {
   }
 
   .welcome-section h1 {
-    font-size: 2.5rem;
     color: $text-primary;
+
+    @include large-screen {
+      font-size: 2.5rem;
+    }
   }
 
   .welcome-section p {
-    font-size: 1.2rem;
     font-weight: 300;
     color: $text-primary;
+
+    @include large-screen {
+      font-size: 1.2rem;
+    }
   }
 
   .contact-section img {
@@ -132,8 +151,11 @@ body {
 
   .social-links a {
     @include a-decoration;
-    font-size: 2rem;
     color: $text-primary;
+
+    @include large-screen {
+      font-size: 2rem;
+    }
   }
 
   .social-links a:hover,
@@ -175,10 +197,13 @@ body {
 
   .toggler-background {
     color: $text-primary;
-    font-size: 1.3rem;
     padding: 0;
     background-color: $section-primary-2;
     border: 1px solid $text-secundary;
+
+    @include large-screen {
+      font-size: 1.3rem;
+    }
   }
 
   .navbar-background {
@@ -203,24 +228,36 @@ body {
   }
 
   .welcome-section h1 {
-    font-size: 2.5rem;
     color: $text-secundary;
+
+    @include large-screen {
+      font-size: 2.5rem;
+    }
   }
 
   .welcome-section h2 {
-    font-size: 2.7rem;
-    color: $text-secundary
+    color: $text-secundary;
+
+    @include large-screen {
+      font-size: 2.7rem;
+    }
   }
 
   .welcome-section h3 {
-    font-size: 2rem;
     color: $text-secundary;
+
+    @include large-screen {
+      font-size: 2rem;
+    }
   }
 
   .welcome-section p {
-    font-size: 1.2rem;
     font-weight: 300;
     color: $text-secundary;
+
+    @include large-screen {
+      font-size: 1.2rem;
+    }
   }
 
   .contact-section img {
@@ -230,8 +267,11 @@ body {
 
   .social-links a {
     @include a-decoration;
-    font-size: 2rem;
     color: $text-secundary;
+
+    @include large-screen {
+      font-size: 2rem;
+    }
   }
 
   .social-links a:hover,
@@ -240,9 +280,12 @@ body {
   }
 
   .social-icons {
-    font-size: 2.5rem;
     margin-bottom: .5rem;
     color: $text-secundary;
+
+    @include large-screen {
+      font-size: 2.5rem;
+    }
   }
 
   .section-title {

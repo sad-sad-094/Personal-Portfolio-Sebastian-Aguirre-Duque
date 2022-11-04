@@ -40,19 +40,19 @@ E-mail: sadw621@gmail.com */
 }
 
 @mixin tablet-landscape {
-  @media only screen and (min-width: 768px ) and (max-width: 1024px) {
+  @media only screen and (min-width: 768px ) and (max-width: 1023px) {
     @content;
   }
 }
 
 @mixin tablet-portrait {
-  @media only screen and (min-width:  480px) and (max-width: 768px) {
+  @media only screen and (min-width:  480px) and (max-width: 767px) {
     @content;
   }
 }
 
 @mixin mobile-landscape {
-  @media only screen and (min-width: 320px ) and (max-width: 480px) {
+  @media only screen and (min-width: 320px ) and (max-width: 479px) {
     @content;
   }
 }
