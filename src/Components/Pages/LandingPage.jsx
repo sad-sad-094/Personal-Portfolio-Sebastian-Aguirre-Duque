@@ -156,10 +156,6 @@ function LandingPage() {
               <a href="https://github.com/sad-sad-094" target="_blank" rel="noreferrer" className="" >Github</a>
             </div>
             <div className="main-container">
-              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664556972/Personal/Torre.co_zumsjl.jpg" alt="Torre.co" className="torre-img" />
-              <a href="https://torre.co/sadw621?column=resume&r=0eLrKAet" target="_blank" rel="noreferrer" className="" >Torre.co</a>
-            </div>
-            <div className="main-container">
               <MdEmail className="social-icons" />
               <a href="mailto: sadw621@gmail.com" target="_blank" rel="noreferrer" className="" >Email</a>
             </div>
