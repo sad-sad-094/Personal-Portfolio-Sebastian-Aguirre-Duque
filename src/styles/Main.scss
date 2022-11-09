@@ -75,6 +75,8 @@ body {
 .roadmap-list {
   color: white;
   justify-self: center;
+  text-align: center;
+  list-style-type: none;
 
   @include large-screen {
     font-size: 1.2rem;
@@ -179,6 +181,7 @@ body {
 
     @include tablet-landscape {
       width: 80%;
+      margin-left: 3rem;
     }
   }
 
