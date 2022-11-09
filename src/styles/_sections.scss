@@ -23,18 +23,20 @@ section {
 
   @include large-screen {
     gap: 6rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
   }
 
   @include tablet-landscape {
     gap: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   @include tablet-portrait {
     gap: .6rem;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
   }
 }
 
@@ -72,7 +74,7 @@ section {
   @include section-img-bordered;
 
   @include large-screen {
-    width: 100%;
+    width: 90%;
   }
 
   @include tablet-landscape {
@@ -87,24 +89,27 @@ section {
 .contact-section {
   padding: .5rem;
   display: flex;
+  width: 90%;
   flex-direction: row;
   justify-content: center;
-  margin: $center-margin;
+  // margin: $center-margin;
 
   @include large-screen {
     gap: 6rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
   }
 
   @include tablet-landscape {
     gap: 2rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   @include tablet-portrait {
     gap: .6rem;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
   }
 }
 
