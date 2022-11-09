@@ -35,7 +35,7 @@ function LandingPageES() {
       <NavbarES Theme={theme} />
 
       <section id="welcome-section" className="welcome-section">
-        <div>
+        <div className="img-container">
           <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558377/Personal/WebDeveloper_ctzqrb.jpg" alt="Web Developer" />
         </div>
         <div className="text-section">
@@ -47,7 +47,7 @@ function LandingPageES() {
       </section>
 
       <section id="projects">
-        <h1 style={{ color: 'white' }}>Algunos de mis proyectos</h1>
+        <h1 className="projects-tittle">Algunos de mis proyectos</h1>
 
         <div className="projects-container">
 
@@ -160,7 +160,7 @@ function LandingPageES() {
               <a href="mailto: sadw621@gmail.com" target="_blank" rel="noreferrer" className="" >Correo</a>
             </div>
           </div>
-          <div>
+          <div className="img-container">
             <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558376/Personal/SocialNetwork_d7uvb1.jpg" alt="Social Networks" />
           </div>
         </div>
@@ -169,7 +169,7 @@ function LandingPageES() {
 
       <section id="roadmap">
 
-        <h1 style={{ color: 'white' }}>Plan de acción...</h1>
+        <h1 className="roadmap-tittle">Plan de acción...</h1>
         <ul className="roadmap-list">
           <li>Hacer la página adaptable para tabletas.</li>
           <li>Hacer la página adaptable para teléfonos móviles.</li>

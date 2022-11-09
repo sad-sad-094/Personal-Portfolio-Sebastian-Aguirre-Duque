@@ -35,7 +35,7 @@ function LandingPage() {
       <Navbar Theme={theme} />
 
       <section id="welcome-section" className="welcome-section">
-        <div>
+        <div className="img-container">
           <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558377/Personal/WebDeveloper_ctzqrb.jpg" alt="Web Developer" />
         </div>
         <div className="text-section">
@@ -160,7 +160,7 @@ function LandingPage() {
               <a href="mailto: sadw621@gmail.com" target="_blank" rel="noreferrer" className="" >Email</a>
             </div>
           </div>
-          <div>
+          <div className="img-container">
             <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664558376/Personal/SocialNetwork_d7uvb1.jpg" alt="Social Networks" />
           </div>
         </div>

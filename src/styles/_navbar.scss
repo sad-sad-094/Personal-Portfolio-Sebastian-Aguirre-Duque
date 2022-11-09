@@ -85,6 +85,10 @@ E-mail: sadw621@gmail.com */
   justify-content: right;
   width: 50%;
   padding-right: $navbar-margin;
+
+  @include tablet-portrait {
+    text-align: center;
+  }
 }
 
 .nav-list {
