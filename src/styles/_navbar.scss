@@ -25,6 +25,10 @@ E-mail: sadw621@gmail.com */
   @include tablet-landscape {
     font-size: 1rem;
   }
+
+  @include tablet-portrait {
+    font-size: .75rem;
+  }
 }
 
 .navbar h1 {
@@ -35,6 +39,10 @@ E-mail: sadw621@gmail.com */
 
   @include tablet-landscape {
     font-size: 1rem;
+  }
+
+  @include tablet-portrait {
+    font-size: .85rem;
   }
 }
 
@@ -58,10 +66,18 @@ E-mail: sadw621@gmail.com */
   @include tablet-landscape {
     font-size: 1rem;
   }
+
+  @include tablet-portrait {
+    font-size: .9rem;
+  }
 }
 
 .nav-header img {
   width: 6%;
+
+  @include tablet-portrait {
+    width: 12%;
+  }
 }
 
 .nav-access {
@@ -75,6 +91,7 @@ E-mail: sadw621@gmail.com */
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  align-items: center;
   gap: $spacing;
   padding: 0;
 }
@@ -82,4 +99,8 @@ E-mail: sadw621@gmail.com */
 .nav-list img {
   width: 1.2rem;
   cursor: pointer;
+
+  @include tablet-portrait {
+    width: 1rem;
+  }
 }

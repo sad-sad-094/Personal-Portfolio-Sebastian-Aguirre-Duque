@@ -38,6 +38,10 @@ body {
   @include tablet-landscape {
     gap: 1.5rem;
   }
+
+  @include tablet-portrait {
+    gap: .7rem;
+  }
 }
 
 .toggler {
@@ -77,28 +81,48 @@ body {
   justify-self: center;
   text-align: center;
   list-style-type: none;
+  padding: 0;
 
   @include large-screen {
     font-size: 1.2rem;
   }
-  
+
   @include tablet-landscape {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+
+  @include tablet-portrait {
+    font-size: 1.1rem;
   }
 }
 
-.roadmap-list h1 {
+.roadmap-tittle {
+  color: white;
+
   @include large-screen {
-    font-size:2.5rem;
+    font-size: 2.5rem;
   }
 
   @include tablet-landscape {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+  @include tablet-portrait {
+    font-size: 1.6rem;
   }
 }
 
 .roadmap-list li {
   margin: .3rem 0;
+}
+
+.projects-tittle {
+  color: white;
+
+  @include tablet-portrait {
+    font-size: 1.43rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .light {
@@ -156,6 +180,10 @@ body {
     @include tablet-landscape {
       font-size: 1.5rem;
     }
+
+    @include tablet-portrait {
+      font-size: 1.1rem;
+    }
   }
 
   .welcome-section p {
@@ -168,6 +196,10 @@ body {
 
     @include tablet-landscape {
       font-size: 1.1rem;
+    }
+
+    @include tablet-portrait {
+      font-size: .8rem;
     }
   }
 
@@ -183,6 +215,11 @@ body {
       width: 80%;
       margin-left: 3rem;
     }
+
+    @include tablet-portrait {
+      width: 80%;
+      margin-left: 1.5rem;
+    }
   }
 
   .social-links a {
@@ -196,6 +233,10 @@ body {
     @include tablet-landscape {
       font-size: 1.2rem;
     }
+
+    @include tablet-portrait {
+      font-size: 1.1rem;
+    }
   }
 
   .social-links a:hover,
@@ -203,8 +244,29 @@ body {
     font-size: 250%;
   }
 
+  .social-icons {
+    margin-bottom: .5rem;
+
+    @include large-screen {
+      font-size: 2.5rem;
+    }
+
+    @include tablet-landscape {
+      font-size: 2.3rem;
+    }
+
+    @include tablet-portrait {
+      font-size: 1.8rem;
+    }
+  }
+
   .section-title {
     color: $text-primary;
+
+    @include tablet-portrait {
+      font-size: 1.43rem;
+      padding-bottom: 2rem;
+    }
   }
 
   .footer-background {
@@ -277,6 +339,10 @@ body {
     @include tablet-landscape {
       font-size: 1.5rem;
     }
+
+    @include tablet-portrait {
+      font-size: 1.1rem;
+    }
   }
 
   .welcome-section h2 {
@@ -298,6 +364,10 @@ body {
     @include tablet-landscape {
       font-size: 1.1rem;
     }
+
+    @include tablet-portrait {
+      font-size: .8rem;
+    }
   }
 
   .contact-section img {
@@ -311,6 +381,11 @@ body {
     @include tablet-landscape {
       width: 80%;
     }
+
+    @include tablet-portrait {
+      width: 80%;
+      margin-left: 1.5rem;
+    }
   }
 
   .social-links a {
@@ -323,6 +398,10 @@ body {
 
     @include tablet-landscape {
       font-size: 1.2rem;
+    }
+
+    @include tablet-portrait {
+      font-size: 1.1rem;
     }
   }
 
@@ -338,10 +417,23 @@ body {
     @include large-screen {
       font-size: 2.5rem;
     }
+
+    @include tablet-landscape {
+      font-size: 2.3rem;
+    }
+
+    @include tablet-portrait {
+      font-size: 1.8rem;
+    }
   }
 
   .section-title {
     color: $text-secundary;
+
+    @include tablet-portrait {
+      font-size: 1.43rem;
+      padding-bottom: 2rem;
+    }
   }
 
   .footer-background {

@@ -17,5 +17,9 @@ E-mail: sadw621@gmail.com */
 .footer h1 {
   font-size: 1rem;
   color: white;
+
+  @include tablet-portrait {
+    font-size: .8rem;
+  }
 }
 

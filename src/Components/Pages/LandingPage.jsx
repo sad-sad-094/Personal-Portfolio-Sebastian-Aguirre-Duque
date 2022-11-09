@@ -47,7 +47,7 @@ function LandingPage() {
       </section>
 
       <section id="projects">
-        <h1 style={{ color: 'white' }}>These are some of my projects</h1>
+        <h1 className="projects-tittle">These are some of my projects</h1>
 
         <div className="projects-container">
 
@@ -169,7 +169,7 @@ function LandingPage() {
 
       <section id="roadmap">
 
-        <h1 style={{ color: 'white' }}>Roadmap...</h1>
+        <h1 className="roadmap-tittle">Roadmap...</h1>
         <ul className="roadmap-list">
           <li>Make page responsive for tablet devices.</li>
           <li>Make page responsive for phone devices.</li>
