@@ -6,7 +6,6 @@ import '../../styles/Main.scss'
 import Navbar from '../Modules/Navbar';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-// import { BsMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { useSelector, useDispatch } from 'react-redux';
 import { darkTheme, lightTheme } from '../../Redux/ThemeSlice';
 import Footer from '../Modules/Footer';
