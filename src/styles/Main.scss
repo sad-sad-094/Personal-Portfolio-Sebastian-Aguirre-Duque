@@ -44,7 +44,7 @@ body {
   }
 
   @include mobile-landscape {
-    gap: .5rem;   //TODO Verificar una vez hecho lo demás
+    gap: .5rem;
   }
 }
 
@@ -69,6 +69,11 @@ body {
     width: 7%;
     height: 7%;
   }
+
+  @include mobile-landscape {
+    width: 7%;
+    height: 7%;
+  }
 }
 
 .toggler-floating {
@@ -86,6 +91,11 @@ body {
   }
 
   @include tablet-portrait {
+    right: .75rem;
+    bottom: 1rem;
+  }
+
+  @include mobile-landscape {
     right: .75rem;
     bottom: 1rem;
   }
@@ -410,6 +420,10 @@ body {
     @include tablet-portrait {
       font-size: 1.1rem;
     }
+
+    @include mobile-landscape {
+      font-size: 1rem;
+    }
   }
 
   .welcome-section h2 {
@@ -435,6 +449,10 @@ body {
     @include tablet-portrait {
       font-size: .8rem;
     }
+
+    @include mobile-landscape {
+      font-size: .8rem;
+    }
   }
 
   .contact-section img {
@@ -450,6 +468,11 @@ body {
     }
 
     @include tablet-portrait {
+      width: 80%;
+      margin-left: 1.5rem;
+    }
+
+    @include mobile-landscape {
       width: 80%;
       margin-left: 1.5rem;
     }
@@ -469,6 +492,10 @@ body {
 
     @include tablet-portrait {
       font-size: 1.1rem;
+    }
+
+    @include mobile-landscape {
+      font-size: .8rem;
     }
   }
 
@@ -492,6 +519,10 @@ body {
     @include tablet-portrait {
       font-size: 1.8rem;
     }
+
+    @include mobile-landscape {
+      font-size: 1.8rem;
+    }
   }
 
   .section-title {
@@ -499,6 +530,11 @@ body {
 
     @include tablet-portrait {
       font-size: 1.43rem;
+      padding-bottom: 2rem;
+    }
+
+    @include mobile-landscape {
+      font-size: 1.2rem;
       padding-bottom: 2rem;
     }
   }

@@ -170,10 +170,10 @@ function LandingPage() {
 
         <h1 className="roadmap-tittle">Roadmap...</h1>
         <ul className="roadmap-list">
-          <li>Make page responsive for tablet devices.</li>
           <li>Make page responsive for phone devices.</li>
         </ul>
         <ul className="roadmap-list">
+          <li><del>Make page responsive for tablet devices.</del></li>
           <li><del>Make personal portfolio webpage.</del></li>
           <li><del>Make page's toggler dark/light theme.</del></li>
           <li><del>Make personal portfolio bilingual page.</del></li>
