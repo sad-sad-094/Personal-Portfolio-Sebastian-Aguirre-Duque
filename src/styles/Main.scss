@@ -71,7 +71,7 @@ body {
   }
 
   @include mobile-landscape {
-    width: 7%;
+    width: 8.5%;
     height: 7%;
   }
 }
@@ -309,7 +309,10 @@ body {
 
   .social-links a:hover,
   social-links a:active {
-    font-size: 250%;
+
+    @include large-screen {
+      font-size: 250%;
+    }
   }
 
   .social-icons {

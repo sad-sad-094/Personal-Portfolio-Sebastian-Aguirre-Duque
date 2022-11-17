@@ -173,7 +173,7 @@ function LandingPageES() {
           <li>Hacer la página adaptable para teléfonos móviles.</li>
         </ul>
         <ul className="roadmap-list">
-          <li><del>Make page responsive for tablet devices.</del></li>
+          <li><del>Hacer la página adaptable para tabletas.</del></li>
           <li><del>Construir página para portafolio personal.</del></li>
           <li><del>Hacer cambio de tema claro/oscuro para la página.</del></li>
           <li><del>Hacer del portafolio una página bilingüe.</del></li>
