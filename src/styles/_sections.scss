@@ -38,6 +38,12 @@ section {
     padding-left: .5rem;
     padding-right: .5rem;
   }
+
+  @include mobile-landscape {
+    gap: .6rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
 }
 
 .welcome-section h2 {
@@ -53,6 +59,10 @@ section {
   @include tablet-portrait {
     font-size: 1rem
   }
+
+  @include mobile-landscape {
+    font-size: .85rem;
+  }
 }
 
 .welcome-section h3 {
@@ -66,6 +76,10 @@ section {
   }
 
   @include tablet-portrait {
+    font-size: .9rem;
+  }
+
+  @include mobile-landscape {
     font-size: .9rem;
   }
 }
@@ -84,6 +98,10 @@ section {
   @include tablet-portrait {
     width: 90%;
   }
+
+  @include mobile-landscape {
+    width: 90%;
+  }
 }
 
 .contact-section {
@@ -92,7 +110,7 @@ section {
   width: 90%;
   flex-direction: row;
   justify-content: center;
-  // margin: $center-margin;
+  margin: $center-margin;
 
   @include large-screen {
     gap: 6rem;
@@ -107,6 +125,12 @@ section {
   }
 
   @include tablet-portrait {
+    gap: .6rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  @include mobile-landscape {
     gap: .6rem;
     padding-left: .5rem;
     padding-right: .5rem;

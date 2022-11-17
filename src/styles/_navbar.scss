@@ -29,6 +29,10 @@ E-mail: sadw621@gmail.com */
   @include tablet-portrait {
     font-size: .75rem;
   }
+
+  @include mobile-landscape {
+    font-size: .6rem;
+  }
 }
 
 .navbar h1 {
@@ -44,6 +48,10 @@ E-mail: sadw621@gmail.com */
   @include tablet-portrait {
     font-size: .85rem;
   }
+
+  @include mobile-landscape {
+    font-size: .7rem;
+  }
 }
 
 .nav-header {
@@ -55,6 +63,10 @@ E-mail: sadw621@gmail.com */
   padding-left: $navbar-margin;
   gap: $spacing;
   @include navbar-fonts;
+
+  @include mobile-landscape {
+    padding-left: .9rem;
+  }
 }
 
 .nav-header p {
@@ -70,12 +82,20 @@ E-mail: sadw621@gmail.com */
   @include tablet-portrait {
     font-size: .9rem;
   }
+
+  @include mobile-landscape {
+    font-size: .9rem;
+  }
 }
 
 .nav-header img {
   width: 6%;
 
   @include tablet-portrait {
+    width: 12%;
+  }
+
+  @include mobile-landscape {
     width: 12%;
   }
 }
@@ -89,6 +109,11 @@ E-mail: sadw621@gmail.com */
   @include tablet-portrait {
     text-align: center;
   }
+
+  @include mobile-landscape {
+    text-align: center;
+    padding-right: .9rem;
+  }
 }
 
 .nav-list {
@@ -98,6 +123,10 @@ E-mail: sadw621@gmail.com */
   align-items: center;
   gap: $spacing;
   padding: 0;
+
+  @include mobile-landscape {
+    gap: .4rem;
+  }
 }
 
 .nav-list img {
@@ -105,6 +134,10 @@ E-mail: sadw621@gmail.com */
   cursor: pointer;
 
   @include tablet-portrait {
+    width: 1rem;
+  }
+
+  @include mobile-landscape {
     width: 1rem;
   }
 }

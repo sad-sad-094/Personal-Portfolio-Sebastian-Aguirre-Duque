@@ -21,5 +21,9 @@ E-mail: sadw621@gmail.com */
   @include tablet-portrait {
     font-size: .8rem;
   }
+
+  @include mobile-landscape {
+    font-size: .8rem;
+  }
 }
 

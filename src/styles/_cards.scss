@@ -15,6 +15,10 @@ E-mail: sadw621@gmail.com */
   @include tablet-portrait {
     padding: .2rem .25rem;
   }
+
+  @include mobile-landscape {
+    padding: .1rem .15rem;
+  }
 }
 
 .card-container p {
@@ -29,6 +33,10 @@ E-mail: sadw621@gmail.com */
   @include tablet-portrait {
     font-size: .63rem;
   }
+
+  @include mobile-landscape {
+    font-size: .63rem;
+  }
 }
 
 .card {
@@ -38,6 +46,10 @@ E-mail: sadw621@gmail.com */
 
   @include tablet-portrait {
     width: 30%;
+  }
+
+  @include mobile-landscape {
+    width: 28%;
   }
 }
 

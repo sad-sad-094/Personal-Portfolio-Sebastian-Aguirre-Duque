@@ -42,6 +42,10 @@ body {
   @include tablet-portrait {
     gap: .7rem;
   }
+
+  @include mobile-landscape {
+    gap: .5rem;   //TODO Verificar una vez hecho lo demás
+  }
 }
 
 .toggler {
@@ -114,6 +118,10 @@ body {
   @include tablet-portrait {
     font-size: 1.1rem;
   }
+
+  @include mobile-landscape {
+    font-size: .8rem;
+  }
 }
 
 .roadmap-tittle {
@@ -130,6 +138,10 @@ body {
   @include tablet-portrait {
     font-size: 1.6rem;
   }
+
+  @include mobile-landscape {
+    font-size: 1.4rem;
+  }
 }
 
 .roadmap-list li {
@@ -141,6 +153,11 @@ body {
 
   @include tablet-portrait {
     font-size: 1.43rem;
+    padding-bottom: 2rem;
+  }
+
+  @include mobile-landscape {
+    font-size: 1.2rem;
     padding-bottom: 2rem;
   }
 }
@@ -208,6 +225,10 @@ body {
     @include tablet-portrait {
       font-size: 1.1rem;
     }
+
+    @include mobile-landscape {
+      font-size: 1rem;
+    }
   }
 
   .welcome-section p {
@@ -223,6 +244,10 @@ body {
     }
 
     @include tablet-portrait {
+      font-size: .8rem;
+    }
+
+    @include mobile-landscape {
       font-size: .8rem;
     }
   }
@@ -244,6 +269,11 @@ body {
       width: 80%;
       margin-left: 1.5rem;
     }
+
+    @include mobile-landscape {
+      width: 80%;
+      margin-left: 1.5rem;
+    }
   }
 
   .social-links a {
@@ -260,6 +290,10 @@ body {
 
     @include tablet-portrait {
       font-size: 1.1rem;
+    }
+
+    @include mobile-landscape {
+      font-size: .8rem;
     }
   }
 
@@ -282,6 +316,10 @@ body {
     @include tablet-portrait {
       font-size: 1.8rem;
     }
+
+    @include mobile-landscape {
+      font-size: 1.8rem;
+    }
   }
 
   .section-title {
@@ -289,6 +327,11 @@ body {
 
     @include tablet-portrait {
       font-size: 1.43rem;
+      padding-bottom: 2rem;
+    }
+
+    @include mobile-landscape {
+      font-size: 1.2rem;
       padding-bottom: 2rem;
     }
   }
