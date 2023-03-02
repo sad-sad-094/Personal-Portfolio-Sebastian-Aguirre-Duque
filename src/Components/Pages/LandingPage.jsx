@@ -84,17 +84,6 @@ function LandingPage() {
           </div>
 
           <div className="card card-colors">
-            <a href="https://sad-sad-094.github.io/ebay-Tarea3-Modulo3/" target="_blank" rel="noreferrer">
-              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/Shopping_App1_n2bk7f.jpg" alt="Shopping Page" />
-              <div className="card-container">
-                <p className="title">
-                  <span class="code">&lt;</span> Shopping Page <span class="code">&#47;&gt;</span>
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <div className="card card-colors">
             <a href="https://sad-sad-094.github.io/GeoPaisesGeek-Tarea2-Modulo3/" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/GeoPaises_Geek1_pqyhfn.jpg" alt="GeoPaises Geek" />
               <div className="card-container">
@@ -138,6 +127,17 @@ function LandingPage() {
             </a>
           </div>
 
+          <div className="card card-colors">
+            <a href="https://get-your-joke.vercel.app" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1677773534/Personal/Get_Your_Joke_cn05ga.jpg" alt="Get Your Joke Page" />
+              <div className="card-container">
+                <p className="title">
+                  <span class="code">&lt;</span> Get Your Joke Page <span class="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </a>
+          </div>
+
         </div>
 
       </section>
@@ -170,9 +170,10 @@ function LandingPage() {
 
         <h1 className="roadmap-tittle">Roadmap...</h1>
         <ul className="roadmap-list">
-          <li>Make page responsive for phone devices.</li>
+          
         </ul>
         <ul className="roadmap-list">
+          <li><del>Make page responsive for phone devices.</del></li>
           <li><del>Make page responsive for tablet devices.</del></li>
           <li><del>Make personal portfolio webpage.</del></li>
           <li><del>Make page's toggler dark/light theme.</del></li>
