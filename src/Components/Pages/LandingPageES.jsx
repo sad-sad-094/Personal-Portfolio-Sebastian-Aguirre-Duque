@@ -96,7 +96,7 @@ function LandingPageES() {
 
           <div className="card card-colors">
             <a href="e-commerce-w-nuxtjs-2t9aviczv-sad-sad-094.vercel.app" target="_blank" rel="noreferrer">
-              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1685032050/Personal/Nuxt-E-Commerce1_y2jim1.jpg" alt="LiveEdu Page" />
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1685032050/Personal/Nuxt-E-Commerce1_y2jim1.jpg" alt="E-commerce w NuxtJS" />
               <div className="card-container">
                 <p className="title">
                   <span class="code">&lt;</span> E-commerce w NuxtJS <span class="code">&#47;&gt;</span>
@@ -107,7 +107,7 @@ function LandingPageES() {
 
           <div className="card card-colors">
             <a href="https://github.com/sad-sad-094/GitHubUserSearcher.git" target="_blank" rel="noreferrer">
-              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1685032219/Personal/GitHub_Users_Search1_uhxbqn.jpg" alt="Buffalo App Page" />
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1685032219/Personal/GitHub_Users_Search1_uhxbqn.jpg" alt="GitHub Users' Search" />
               <div className="card-container">
                 <p className="title">
                   <span class="code">&lt;</span> GitHub Users' Search <span class="code">&#47;&gt;</span>
