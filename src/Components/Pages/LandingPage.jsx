@@ -95,22 +95,22 @@ function LandingPage() {
           </div>
 
           <div className="card card-colors">
-            <a href="https://sad-sad-094.github.io/Live-Edu_Academia-Geek3" target="_blank" rel="noreferrer">
-              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924087/Personal/LiveEdu_App1_iidld0.jpg" alt="LiveEdu Page" />
+            <a href="e-commerce-w-nuxtjs-2t9aviczv-sad-sad-094.vercel.app" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1685032050/Personal/Nuxt-E-Commerce1_y2jim1.jpg" alt="LiveEdu Page" />
               <div className="card-container">
                 <p className="title">
-                  <span class="code">&lt;</span> LiveEdu Page <span class="code">&#47;&gt;</span>
+                  <span class="code">&lt;</span> E-commerce w NuxtJS <span class="code">&#47;&gt;</span>
                 </p>
               </div>
             </a>
           </div>
 
           <div className="card card-colors">
-            <a href="https://sad-sad-094.github.io/Buffalo-App_Academia-Geek3" target="_blank" rel="noreferrer">
-              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1664924086/Personal/Buffalo_App1_bpkxow.jpg" alt="Buffalo App Page" />
+            <a href="https://github.com/sad-sad-094/GitHubUserSearcher.git" target="_blank" rel="noreferrer">
+              <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1685032219/Personal/GitHub_Users_Search1_uhxbqn.jpg" alt="Buffalo App Page" />
               <div className="card-container">
                 <p className="title">
-                  <span class="code">&lt;</span> Buffalo App Page <span class="code">&#47;&gt;</span>
+                  <span class="code">&lt;</span> GitHub Users' Search <span class="code">&#47;&gt;</span>
                 </p>
               </div>
             </a>
