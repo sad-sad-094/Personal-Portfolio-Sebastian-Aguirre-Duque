@@ -95,7 +95,7 @@ function LandingPage() {
           </div>
 
           <div className="card card-colors">
-            <a href="e-commerce-w-nuxtjs-2t9aviczv-sad-sad-094.vercel.app" target="_blank" rel="noreferrer">
+            <a href="https://e-commerce-w-nuxtjs-2t9aviczv-sad-sad-094.vercel.app" target="_blank" rel="noreferrer">
               <img src="https://res.cloudinary.com/dtxqusdhr/image/upload/v1685032050/Personal/Nuxt-E-Commerce1_y2jim1.jpg" alt="E-commerce w NuxtJS" />
               <div className="card-container">
                 <p className="title">
